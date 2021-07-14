@@ -1,0 +1,15 @@
+#include <iostream>
+#include "profile.hpp"
+
+int main() {
+  Profile selina("Selina Kyle", 27, "Gotham City USA", "she/her");
+  selina.add_hobby("Batman");
+  selina.add_hobby("Loving cats");
+  selina.add_hobby("Stealing");
+
+  std::cout << selina.view_profile();
+
+  
+  
+
+}
